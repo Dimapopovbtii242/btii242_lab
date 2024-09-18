@@ -1,0 +1,4 @@
+﻿  task2.c
+C:\Users\дмитрий\Desktop\лабы\lab3_2\task2.c(25,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\дмитрий\Desktop\лабы\lab3_2\task2.c(28,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  lab3_2.vcxproj -> C:\Users\дмитрий\Desktop\лабы\lab3_242\x64\Debug\lab3_2.exe
