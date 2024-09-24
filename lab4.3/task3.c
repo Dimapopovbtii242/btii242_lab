@@ -5,17 +5,17 @@ int main()
 {
     setlocale(LC_ALL, "RUS");
     int N;
-    printf("Введите трехзначное целое число N: ");
+    printf("Р’РІРµРґРёС‚Рµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С†РµР»РѕРµ С‡РёСЃР»Рѕ N: ");
     scanf("%d", &N);
     if (N < 100 || N > 999) {
-        printf("Ошибка: введите корректное трехзначное число.\n");
+        printf("РћС€РёР±РєР°: РІРІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅРѕРµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ.\n");
         return 1;
     }
     int last_digit = N % 10;
     int first_digit = N / 100;
     int sum_of_digits = first_digit + (N / 10 % 10) + last_digit;
-    printf("Последняя цифра числа: %d\n", last_digit);
-    printf("Первая цифра числа: %d\n", first_digit);
-    printf("Сумма цифр числа: %d\n", sum_of_digits);
+    printf("РџРѕСЃР»РµРґРЅСЏСЏ С†РёС„СЂР° С‡РёСЃР»Р°: %d\n", last_digit);
+    printf("РџРµСЂРІР°СЏ С†РёС„СЂР° С‡РёСЃР»Р°: %d\n", first_digit);
+    printf("РЎСѓРјРјР° С†РёС„СЂ С‡РёСЃР»Р°: %d\n", sum_of_digits);
     return 0;
 }
