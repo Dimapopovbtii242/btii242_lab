@@ -14,18 +14,18 @@ int main()
     y = a / b; 
     z = a / b; 
 
-    printf("Значение x (int): %d\n", x);
-    printf("Значение y (float): %.2f\n", y);
-    printf("Значение z (double): %.6f\n", z);
+    printf("Р—РЅР°С‡РµРЅРёРµ x (int): %d\n", x);
+    printf("Р—РЅР°С‡РµРЅРёРµ y (float): %.2f\n", y);
+    printf("Р—РЅР°С‡РµРЅРёРµ z (double): %.6f\n", z);
 
-    printf("Результат a/b к float: %.2f\n", (float)a / b);
-    printf("Результат a/b к double: %.6f\n", (double)a / b);
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ a/b Рє float: %.2f\n", (float)a / b);
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ a/b Рє double: %.6f\n", (double)a / b);
 
-    printf("Результат (float)a / b: %.2f\n", (float)a / b); 
-    printf("Результат a / (float)b: %.2f\n", a / (float)b); 
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ (float)a / b: %.2f\n", (float)a / b); 
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ a / (float)b: %.2f\n", a / (float)b); 
 
-    printf("Результат (double)a / b: %.6f\n", (double)a / b);
-    printf("Результат a / (double)b: %.6f\n", a / (double)b); 
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ (double)a / b: %.6f\n", (double)a / b);
+    printf("Р РµР·СѓР»СЊС‚Р°С‚ a / (double)b: %.6f\n", a / (double)b); 
 
     return 0;
 }
