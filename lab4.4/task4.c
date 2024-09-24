@@ -5,15 +5,15 @@ int main()
 {
     setlocale(LC_ALL, "RUS");
     int n;
-    printf("Ваше число: ");
+    printf("Р’Р°С€Рµ С‡РёСЃР»Рѕ: ");
     scanf("%d", &n);
     if (n < 100 || n > 999) {
-        printf("Ошибка: введите корректное трехзначное число.\n");
+        printf("РћС€РёР±РєР°: РІРІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅРѕРµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ.\n");
         return 1;
     }
     int last_digit = n % 10; 
     int second_digit = (n / 10) % 10;
     int first_digit = n / 100; 
-    printf("Цифры числа в обратном порядке: %d%d%d\n", last_digit, second_digit, first_digit);
+    printf("Р¦РёС„СЂС‹ С‡РёСЃР»Р° РІ РѕР±СЂР°С‚РЅРѕРј РїРѕСЂСЏРґРєРµ: %d%d%d\n", last_digit, second_digit, first_digit);
     return 0;
 }
